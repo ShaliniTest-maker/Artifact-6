@@ -21,7 +21,11 @@ Start the server with either of the following commands:
 
 ```bash
 npm start
-# or
+```
+
+Alternatively, run the entrypoint directly:
+
+```bash
 node server.js
 ```
 
@@ -38,8 +42,12 @@ For example, with the server running on the default port:
 
 ```bash
 curl http://localhost:3000/
-# Hello world
-
-curl http://localhost:3000/good-evening
-# Good evening
 ```
+
+Expected output: `Hello world`
+
+```bash
+curl http://localhost:3000/good-evening
+```
+
+Expected output: `Good evening`
